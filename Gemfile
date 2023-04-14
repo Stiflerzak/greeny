@@ -47,7 +47,7 @@ group :development, :test do
   gem 'bundler-audit'
   gem 'ruby_audit'
   # Database
-  gem 'pg', '~> 1.4', '>= 1.4.6'
+  gem 'pg'
   # Linting
   gem 'rubocop'
   gem 'rubocop-rails'

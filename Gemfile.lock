@@ -194,7 +194,7 @@ DEPENDENCIES
   brakeman
   bundler-audit
   debug
-  pg (~> 1.4, >= 1.4.6)
+  pg
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.3)
   rubocop
