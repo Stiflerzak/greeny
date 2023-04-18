@@ -1,7 +1,7 @@
-
+# frozen_string_literal: true
 
 # Create 5 organizations
-puts "seeding now************"
+puts 'seeding now************'
 5.times do
   Organization.create!(
     logo: Faker::Company.logo,
@@ -16,4 +16,4 @@ puts "seeding now************"
   )
 end
 
-puts "done seeding **************"
+puts 'done seeding **************'
